@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Get the latest daily betting tips, predictions, and odds for football, including over/under and GG bets. Stay updated with our expert analysis and 3 sure odds for today's and tomorrow's matches.">
+    <meta name="keywords" content="betting tips, football predictions, over/under betting, GG betting, sure odds, football tips, match predictions">
+    <meta name="author" content="Bet Prediction Website">
+    <meta property="og:title" content="Bet Prediction - Football Betting Tips">
+    <meta property="og:description" content="Stay ahead with our daily betting tips and predictions for football. Get expert advice on Over/Under, GG bets, and 3 sure odds.">
+    <meta property="og:image" content="your-image-url.jpg"> <meta property="og:url" content="https://your-website-url.com"> <meta name="robots" content="index, follow">
+    <title>Bet Prediction - Daily Football Tips & Predictions</title>
+    
+    <style>
+        /* Basic styling for the body */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #6A0DAD; /* Purple background */
+            margin: 0;
+            padding: 0;
+            color: white;
+            padding-bottom: 100px; /* Space for sticky footer */
+        }
+
+        /* Styling for the nav bar */
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #4B0082;
+            padding: 10px;
+        }
+
+        nav button {
+            background-color: #800080;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 16px;
+            margin: 0 10px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        nav button:hover {
+            background-color: #9932CC;
+        }
+
+        /* Styling for content sections */
+        .section {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .section h2 {
+            font-size: 2em;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            border: 1px solid #4B0082;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #4B0082;
+            color: white;
+        }
+
+        /* Styling for the footer */
+        footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background-color: #4B0082;
+            text-align: center;
+            padding: 10px;
+            z-index: 1000;
+            color: white;
+            font-size: 0.9em; /* Adjusting font size for smaller footer */
+        }
+
+        /* Smaller Footer Ad */
+        .google-ad-footer {
+            height: 100px; /* Reduced height */
+            background-color: #ddd;
+            text-align: center;
+            line-height: 100px;
+            color: #333;
+            margin-top: 10px;
+        }
+
+        /* Mobile responsiveness */
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+            }
+
+            nav button {
+                width: 100%;
+                margin: 5px 0;
+            }
+        }
+
+        /* Full Width Ad styling */
+        .full-width-ad {
+            position: sticky;
+            top: 0;
+            width: 100%;
+            background-color: #800080; /* Purple Background for the ad */
+            text-align: center;
+            padding: 20px 0;
+            z-index: 9999; /* Ensure the ad stays on top */
+        }
+
+        /* Disclaimer styling */
+        .disclaimer {
+            background-color: #800080;
+            color: white;
+            padding: 15px;
+            margin: 20px 0;
+            text-align: center;
+            font-size: 1.2em;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="full-width-ad">
+        <p>Google Ads - Placeholder for Full Width Ad</p>
+    </div>
+
+    <nav>
+        <button onclick="showSection('home')">Home</button>
+        <button onclick="showSection('today-tips')">Today's Tips</button>
+        <button onclick="showSection('tomorrow-tips')">Tomorrow's Tips</button>
+        <button onclick="showSection('over-under')">Over/Under</button>
+        <button onclick="showSection('sure-odds')">3 Sure Odds</button>
+    </nav>
+
+    <div class="google-ad">
+        <p>Google Ads - Placeholder</p>
+    </div>
+
+    <div id="home" class="section">
+        <h2>Welcome to Bet Prediction</h2>
+        <p>At Bet Prediction, we strive to provide you with the most accurate and reliable football betting tips. Our team of experienced analysts carefully evaluates various factors, including team form, historical data, and current statistics, to deliver well-informed predictions.</p>
+        <h3>Past Results</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Prediction</th>
+                    <th>Result</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2024-03-15</td>
+                    <td>Liverpool to Win vs. Manchester City</td>
+                    <td>Liverpool 1-1 Manchester City (Draw)</td>
+                </tr>
+                <tr>
+                    <td>2024-03-16</td>
+                    <td>Over 2.5 Goals in Real Madrid vs. Barcelona</td>
+                    <td>Real Madrid 4-1 Barcelona (Over 2.5)</td>
+                </tr>
+                <tr>
+                    <td>2024-03-17</td>
+                    <td>Both Teams to Score in Arsenal vs. Tottenham</td>
+                    <td>Arsenal 2-2 Tottenham (GG)</td>
+                </tr>
+                <tr>
+                    <td>2024-03-18</td>
+                    <td>Juventus to Win vs. Torino</td>
+                    <td>Juventus 1-0 Torino (Win)</td>
+                </tr>
+                <tr>
+                    <td>2024-03-19</td>
+                    <td>Under 2.5 Goals in Chelsea vs. Leeds</td>
+                    <td>Chelsea 2-0 Leeds (Under 2.5)</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>Please note that past results do not guarantee future outcomes. Betting involves risk, and you should bet responsibly.</p>
+    </div>
+
+    <div id="today-tips" class="section" style="display: none;">
+        <h2>Today's Bet Tips</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Match</th>
+                    <th>Prediction</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>Manchester United vs Chelsea</td><td>Manchester United to Win</td></tr>
+                <tr><td>Liverpool vs Arsenal</td><td>Double Chance: Liverpool or Draw</td></tr>
+                <tr><td>Real Madrid vs Barcelona</td><td>GG (Both Teams to Score)</td></tr>
+                <tr><td>Manchester City vs Tottenham</td><td>Man City to Win</td></tr>
+                <tr><td>PSG vs Lyon</td><td>Double Chance: PSG or Draw</td></tr>
+                <tr><td>AC Milan vs Juventus</td><td>GG (Both Teams to Score)</td></tr>
+                <tr><td>Bayern Munich vs Borussia Dortmund</td><td>Bayern Munich to Win</td></tr>
+                <tr><td>Inter Milan vs Roma</td><td>Double Chance: Inter Milan or Draw</td></tr>
+                <tr><td>Sevilla vs Real Betis</td><td>GG (Both Teams to Score)</td></tr>
+                <tr><td>Liverpool vs Aston Villa</td><td>Liverpool to Win</td></tr>
+                <tr><td>Chelsea vs Leeds United</td><td>Double Chance: Chelsea or Draw</td></tr>
+                <tr><td>Arsenal vs Newcastle</td><td>GG (Both Teams to Score)</td></tr>
+                <tr><td>Man United vs Wolves</td><td>Manchester United to Win</td></tr>
+                <tr><td>Leicester vs Southampton</td><td>GG (Both Teams to Score)</td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div id="tomorrow-tips" class="section" style="display: none;">
+        <h2>Tomorrow's Bet Tips</h2>
+        <table>
+             <thead>
+                <tr>
+                    <th>Match</th>
+                    <th>Prediction</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>Barcelona vs Valencia</td><td>Barcelona to Win</td></tr>
+                <tr><td>Napoli vs Lazio</td><td>Double Chance: Napoli or Draw</td></tr>
+                <tr><td>Real Sociedad vs Athletic Bilbao</td><td>GG (Both Teams to Score)</td></tr>
+                <tr><td>Chelsea vs Brighton</td><td>Chelsea to Win</td></tr>
+                <tr><td>Lyon vs Marseille</td><td>Double Chance: Lyon or Draw</td></tr>
+                <tr><td>RB Leipzig vs Schalke</td><td>GG (Both Teams to Score)</td></tr>
+                <tr><td>Juventus vs Bologna</td><td>Juventus to Win</td></tr>
+                <tr><td>Milan vs Atalanta</td><td>Double Chance: Milan or Draw</td></tr>
+                <tr><td>Betis vs Celta Vigo</td><td>GG (Both Teams to Score)</td></tr>
+                <tr><td>Tottenham vs West Ham</td><td>Tottenham to Win</td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div id="over-under" class="section" style="display: none;">
+        <h2>Over/Under Bet Tips</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Match</th>
+                    <th>Prediction</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>Manchester City vs Tottenham</td><td>Over 2.5 Goals</td></tr>
+                <tr><td>Chelsea vs Leeds United</td><td>Under 2.5 Goals</td></tr>
+                <tr><td>Arsenal vs Newcastle</td><td>Over 2.5 Goals</td></tr>
+                <tr><td>Sevilla vs Real Betis</td><td>Under 2.5 Goals</td></tr>
+                <tr><td>Man United vs Wolves</td><td>Over 2.5 Goals</td></tr>
+                <tr><td>Leicester vs Southampton</td><td>Under 2.5 Goals</td></tr>
+                <tr><td>Bayern Munich vs Borussia Dortmund</td><td>Over 2.5 Goals</td></tr>
+                <tr><td>PSG vs Lyon</td><td>Under 2.5 Goals</td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div id="sure-odds" class="section" style="display: none;">
+        <h2>3 Sure Odds</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Match</th>
+                    <th>Prediction</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>Manchester City vs Tottenham</td><td>Man City to Win</td></tr>
+                <tr><td>Liverpool vs Aston Villa</td><td>Liverpool to Win</td></tr>
+                <tr><td>Bayern Munich vs Borussia Dortmund</td><td>Bayern Munich to Win</td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="disclaimer" style="position: relative;">
+        <p>All predictions provided on this website are based on statistical analysis, historical data, and expert opinions. However, please note that all betting activities involve risk, and we cannot guarantee the outcome of any bet. We encourage you to gamble responsibly and ensure that you are fully aware of the potential risks involved. Always bet within your means, and if you feel your gambling habits are becoming problematic, seek professional assistance. Our tips are intended to be used for entertainment purposes and should not be relied upon as financial advice.</p>
+    </div>
+
+    <footer>
+        <p>© 2025 Bet Prediction. All Rights Reserved.</p>
+        <div class="google-ad-footer">
+            <p>Google Ads - Footer Placeholder</p>
+        </div>
+    </footer>
+
+    <script>
+        // Function to show the corresponding section when a button is clicked
+        function showSection(section) {
+            // Hide all sections
+            const sections = document.querySelectorAll('.section');
+            sections.forEach(section => section.style.display = 'none');
+
+            // Show the selected section
+            document.getElementById(section).style.display = 'block';
+            if (section === 'home') {
+                document.getElementById(section).style.display = 'block';
+            }
+        }
+        window.onload = function() {
+            showSection('home');
+        }
+    </script>
+</body>
+</html>
