@@ -3,7 +3,402 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="d<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Get the latest daily betting tips, predictions, and odds for football, including over/under and GG bets. Stay updated with our expert analysis and 3 sure odds for today's and tomorrow's matches.">
+    <meta name="keywords" content="betting tips, football predictions, over/under betting, GG betting, sure odds, football tips, match predictions, transfer rumors, football news, analysis, live scores">
+    <meta name="author" content="Bet Prediction Website">
+    <meta property="og:title" content="Bet Prediction - Football Betting Tips">
+    <meta property="og:description" content="Stay ahead with our daily betting tips and predictions for football. Get expert advice on Over/Under, GG bets, and 3 sure odds. Plus, transfer rumors, news, analysis, and live scores.">
+    <meta property="og:image" content="your-image-url.jpg">
+    <meta property="og:url" content="https://your-website-url.com">
+    <meta name="robots" content="index, follow">
+    <title>Bet Prediction - Daily Football Tips & Predictions</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <style>
+        /* Basic styling for the body */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #6A0DAD; /* Purple background */
+            margin: 0;
+            padding: 0;
+            color: white;
+            padding-bottom: 100px; /* Space for sticky footer */
+        }
+
+        /* Styling for the nav bar */
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #4B0082;
+            padding: 10px;
+            flex-wrap: wrap; /* Allow wrapping on smaller screens */
+        }
+
+        nav button {
+            background-color: #800080;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 16px;
+            margin: 5px; /* Added spacing for better layout */
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            border-radius: 25px; /* Rounded corners */
+        }
+
+        nav button:hover {
+            background-color: #9932CC;
+        }
+
+        /* Styling for content sections */
+        .section {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .section h2 {
+            font-size: 2em;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            border: 1px solid #4B0082;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #4B0082;
+            color: white;
+        }
+
+        /* Styling for the footer */
+        footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background-color: #4B0082;
+            text-align: center;
+            padding: 10px;
+            z-index: 1000;
+            color: white;
+            font-size: 0.9em; /* Adjusting font size for smaller footer */
+        }
+
+        /* Smaller Footer Ad */
+        .google-ad-footer {
+            height: 100px; /* Reduced height */
+            background-color: #ddd;
+            text-align: center;
+            line-height: 100px;
+            color: #333;
+            margin-top: 10px;
+        }
+
+        /* Mobile responsiveness */
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+            }
+
+            nav button {
+                width: 100%;
+                margin: 5px 0;
+            }
+        }
+
+        /* Full Width Ad styling */
+        .full-width-ad {
+            position: sticky;
+            top: 0;
+            width: 100%;
+            background-color: #800080; /* Purple Background for the ad */
+            text-align: center;
+            padding: 20px 0;
+            z-index: 9999; /* Ensure the ad stays on top */
+        }
+
+        /* Disclaimer styling */
+        .disclaimer {
+            background-color: #800080;
+            color: white;
+            padding: 15px;
+            margin: 20px 0;
+            text-align: center;
+            font-size: 1.2em;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="full-width-ad">
+        <p> </p>
+    </div>
+
+    <nav>
+        <button onclick="showSection('home')">Home</button>
+        <button onclick="showSection('today-tips')">Today's Tips</button>
+        <button onclick="showSection('tomorrow-tips')">Tomorrow's Tips</button>
+        <button onclick="showSection('over-under')">Over/Under</button>
+        <button onclick="showSection('sure-odds')">3 ODDS</button>
+        <button onclick="showSection('transfer-rumors')">Transfer Rumors</button>
+        <button onclick="showSection('football-news')">Football News</button>
+        <button onclick="showSection('analysis')">Analysis</button>
+        <button onclick="showSection('live-scores')">Live Scores</button>
+    </nav>
+
+    <div class="google-ad">
+        <p> </p>
+    </div>
+
+    <div id="home" class="section">
+        <h2>Welcome to ProBetTips And Predictions</h2>
+        <p>At Bet Prediction, we strive to provide you with the most accurate and reliable football betting tips. Our team of experienced analysts carefully evaluates various factors, including team form, historical data, and current statistics, to deliver well-informed predictions.</p>
+        <h3>Past Results</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Prediction</th>
+                    <th>Result</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2024-03-15</td>
+                    <td>Liverpool to Win vs. Manchester City</td>
+                    <td>Liverpool 1-1 Manchester City (Draw)</td>
+                </tr>
+                <tr>
+                    <td>2024-03-16</td>
+                    <td>Over 2.5 Goals in Real Madrid vs. Barcelona</td>
+                    <td>Real Madrid 4-1 Barcelona (Over 2.5)</td>
+                </tr>
+                <tr>
+                    <td>2024-03-17</td>
+                    <td>Both Teams to Score in Arsenal vs. Tottenham</td>
+                    <td>Arsenal 2-2 Tottenham (GG)</td>
+                </tr>
+                <tr>
+                    <td>2024-03-18</td>
+                    <td>Juventus to Win vs. Torino</td>
+                    <td>Juventus 1-0 Torino (Win)</td>
+                </tr>
+                <tr>
+                    <td>2024-03-19</td>
+                    <td>Under 2.5 Goals in Chelsea vs. Leeds</td>
+                    <td>Chelsea 2-0 Leeds (Under 2.5)</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>Please note that past results do not guarantee future outcomes. Betting involves risk, and you should bet responsibly.</p>
+    </div>
+
+    <div id="today-tips" class="section" style="display: none;">
+        <h2>Today's Bet Tips</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Match</th>
+                    <th>Prediction</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>Manchester United vs Chelsea</td><td>Manchester United to Win</td></tr>
+                <tr><td>Liverpool vs Arsenal</td><td>Double Chance: Liverpool or Draw</td></tr>
+                <tr><td>Real Madrid vs Barcelona</td><td>GG (Both Teams to Score)</td></tr>
+                <tr><td>Manchester City vs Tottenham</td><td>Man City to Win</td></tr>
+                <tr><td>PSG vs Lyon</td><td>Double Chance: PSG or Draw</td></tr>
+                <tr><td>AC Milan vs Juventus</td><td>GG (Both Teams to Score)</td></tr>
+                <tr><td>Bayern Munich vs Borussia Dortmund</td><td>Bayern Munich to Win</td></tr>
+                <tr><td>Inter Milan vs Roma</td><td>Double Chance: Inter Milan or Draw</td></tr>
+                <tr><td>Sevilla vs Real Betis</td><td>GG (Both Teams to Score)</td></tr>
+                <tr><td>Liverpool vs Aston Villa</td><td>Liverpool to Win</td></tr>
+                <tr><td>Chelsea vs Leeds United</td><td>Double Chance: Chelsea or Draw</td></tr>
+                <tr><td>Arsenal vs Newcastle</td><td>GG (Both Teams to Score)</td></tr>
+                <tr><td>Man United vs Wolves</td><td>Manchester United to Win</td></tr>
+                <tr><td>Leicester vs Southampton</td><td>GG (Both Teams to Score)</td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div id="tomorrow-tips" class="section" style="display: none;">
+        <h2>Tomorrow's Bet Tips</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Match</th>
+                    <th>Prediction</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>Barcelona vs Valencia</td><td>Barcelona to Win</td></tr>
+                <tr><td>Napoli vs Lazio</td><td>Double Chance: Napoli or Draw</td></tr>
+                <tr><td>Real Sociedad vs Athletic Bilbao</td><td>GG (Both Teams to Score)</td></tr>
+                <tr><td>Chelsea vs Brighton</td><td>Chelsea to Win</td></tr>
+                <tr><td>Lyon vs Marseille</td><td>Double Chance: Lyon or Draw</td></tr>
+                <tr><td>RB Leipzig vs Schalke</td><td>GG (Both Teams to Score)</td></tr>
+                <tr><td>Juventus vs Bologna</td><td>Juventus to Win</td></tr>
+                <tr><td>Milan vs Atalanta</td><td>Double Chance: Milan or Draw</td></tr>
+                <tr><td>Betis vs Celta Vigo</td><td>GG (Both Teams to Score)</td></tr>
+                <tr><td>Tottenham vs West Ham</td><td>Tottenham to Win</td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div id="over-under" class="section" style="display: none;">
+        <h2>Over/Under Bet Tips</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Match</th>
+                    <th>Prediction</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>Manchester City vs Tottenham</td><td>Over 2.5 Goals</td></tr>
+                <tr><td>Chelsea vs Leeds United</td><td>Under 2.5 Goals</td></tr>
+                <tr><td>Arsenal vs Newcastle</td><td>Over 2.5 Goals</td></tr>
+                <tr><td>Sevilla vs Real Betis</td><td>Under 2.5 Goals</td></tr>
+                <tr><td>Man United vs Wolves</td><td>Over 2.5 Goals</td></tr>
+                <tr><td>Leicester vs Southampton</td><td>Under 2.5 Goals</td></tr>
+                <tr><td>Bayern Munich vs Borussia Dortmund</td><td>Over 2.5 Goals</td></tr>
+                <tr><td>PSG vs Lyon</td><td>Under 2.5 Goals</td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div id="sure-odds" class="section" style="display: none;">
+        <h2>3 Sure Odds</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Match</th>
+                    <th>Prediction</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>Manchester City vs Tottenham</td><td>Man City to Win</td></tr>
+                <tr><td>Liverpool vs Aston Villa</td><td>Liverpool to Win</td></tr>
+                <tr><td>Bayern Munich vs Borussia Dortmund</td><td>Bayern Munich to Win</td></tr>
+            </tbody>
+        </table>
+    </div>
+    <div id="transfer-rumors" class="section" style="display: none;">
+        <h2>Transfer Rumors</h2>
+        <p>Stay updated on the latest transfer rumors in the football world...</p>
+    </div>
+
+    <div id="football-news" class="section" style="display: none;">
+        <h2>Football News</h2>
+        <p>Read the latest football news and updates...</p>
+    </div>
+
+    <div id="analysis" class="section" style="display: none;">
+        <h2>Football Analysis</h2>
+        <p>In-depth analysis of matches, teams, and players...</p>
+    </div>
+
+    <div id="live-scores" class="section" style="display: none;">
+        <h2>Live Scores</h2>
+        <p>Get real-time live scores and updates...</p>
+    </div>
+
+    <div class="disclaimer" style="position: relative;">
+        <p>Please read this disclaimer carefully before using our website for betting tips and predictions.</p>
+        <p>All predictions provided on this website are based on statistical analysis, historical data, and the opinions of our experienced football analysts. However, please note that <strong>all betting activities involve significant risk, and we cannot guarantee the outcome of any bet.</strong></p>
+        <p><strong>You must be of legal gambling age in Ghana to use this website and engage in betting activities.</strong> It is your responsibility to understand and comply with all applicable local laws and regulations regarding online betting.</p>
+        <p>We strongly encourage you to <strong>gamble responsibly</strong>. Ensure that you are fully aware of the potential risks involved and always bet within your means. If you feel your gambling habits are becoming problematic, please seek professional assistance. You can find support and information at the following organizations:</p>
+        <ul>
+            <li><a href="https://gamingcommissionghana.org/" target="_blank" rel="noopener noreferrer">Gaming Commission of Ghana</a></li>
+            <li><a href="https://www.begambleaware.org/" target="_blank" rel="noopener noreferrer">BeGambleAware</a> (While UK-based, their general information is useful)</li>
+        </ul>
+        <p>Our tips are intended to be used for <strong>entertainment purposes only</strong> and should not be relied upon as financial advice. We do not endorse or encourage illegal or irresponsible gambling.</p>
+    </div>
+
+    <footer>
+        <p>© 2025 Bet Prediction. All Rights Reserved.</p>
+        <div class="google-ad-footer">
+            <p> </p>
+        </div>
+    </footer>
+
+    <script>
+        function showSection(section) {
+            const sections = document.querySelectorAll('.section');
+            sections.forEach(sec => sec.style.display = 'none');
+
+            document.getElementById(section).style.display = 'block';
+        }
+
+        function handleHash() {
+            if (window.location.hash === '#tomorrow-tips') {
+                showSection('tomorrow-tips');
+            } else if (window.location.hash === '#today-tips') {
+                showSection('today-tips');
+            } else if (window.location.hash === '#over-under') {
+                showSection('over-under');
+            } else if (window.location.hash === '#sure-odds') {
+                showSection('sure-odds');
+            } else if (window.location.hash === '#transfer-rumors') {
+                showSection('transfer-rumors');
+            } else if (window.location.hash === '#football-news') {
+                showSection('football-news');
+            } else if (window.location.hash === '#analysis') {
+                showSection('analysis');
+            } else if (window.location.hash === '#live-scores') {
+                showSection('live-scores');
+            } else {
+                showSection('home');
+            }
+        }
+
+        window.onload = function() {
+            handleHash();
+        };
+
+        document.querySelector('nav button:nth-child(2)').addEventListener('click', function() {
+            window.location.hash = 'today-tips';
+        });
+
+        document.querySelector('nav button:nth-child(3)').addEventListener('click', function() {
+            window.location.hash = 'tomorrow-tips';
+        });
+
+        document.querySelector('nav button:nth-child(4)').addEventListener('click', function() {
+            window.location.hash = 'over-under';
+        });
+
+        document.querySelector('nav button:nth-child(5)').addEventListener('click', function() {
+            window.location.hash = 'sure-odds';
+        });
+        document.querySelector('nav button:nth-child(6)').addEventListener('click', function() {
+            window.location.hash = 'transfer-rumors';
+        });
+        document.querySelector('nav button:nth-child(7)').addEventListener('click', function() {
+            window.location.hash = 'football-news';
+        });
+        document.querySelector('nav button:nth-child(8)').addEventListener('click', function() {
+            window.location.hash = 'analysis';
+        });
+        document.querySelector('nav button:nth-child(9)').addEventListener('click', function() {
+            window.location.hash = 'live-scores';
+        });
+
+        window.addEventListener('hashchange', handleHash);
+    </script>
+</body>
+</html>escription" content="Get the latest daily betting tips, predictions, and odds for football, including over/under and GG bets. Stay updated with our expert analysis and 3 sure odds for today's and tomorrow's matches.">
     <meta name="keywords" content="betting tips, football predictions, over/under betting, GG betting, sure odds, football tips, match predictions">
     <meta name="author" content="Bet Prediction Website">
     <meta property="og:title" content="Bet Prediction - Football Betting Tips">
