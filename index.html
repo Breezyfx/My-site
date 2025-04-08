@@ -136,6 +136,12 @@
             font-size: 1.2em;
             border-radius: 5px;
         }
+        .football-news-image{
+            width: 100%;
+            max-height: 300px;
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
     </style>
 </head>
 <body>
@@ -250,7 +256,7 @@
                 <tr><td>Juventus vs Bologna</td><td>Juventus to Win</td></tr>
                 <tr><td>Milan vs Atalanta</td><td>Double Chance: Milan or Draw</td></tr>
                 <tr><td>Betis vs Celta Vigo</td><td>GG (Both Teams to Score)</td></tr>
-                <tr><td>Tottenham vs West Ham</td><td>Tottenham to Win</td>
+                <tr><td>Tottenham vs West Ham</td><td>Tottenham to Win</td></tr>
             </tbody>
         </table>
     </div>
@@ -270,8 +276,8 @@
                 <tr><td>Arsenal vs Newcastle</td><td>Over 2.5 Goals</td></tr>
                 <tr><td>Sevilla vs Real Betis</td><td>Under 2.5 Goals</td></tr>
                 <tr><td>Man United vs Wolves</td><td>Over 2.5 Goals</td></tr>
-                <tr><td>Leicester vs Southampton</td><td>Under 2.5 Goals</td>
-                <tr><td>Bayern Munich vs Borussia Dortmund</td><td>Over 2.5 Goals</td>
+                <tr><td>Leicester vs Southampton</td><td>Under 2.5 Goals</td></tr>
+                <tr><td>Bayern Munich vs Borussia Dortmund</td><td>Over 2.5 Goals</td></tr>
                 <tr><td>PSG vs Lyon</td><td>Under 2.5 Goals</td>
             </tbody>
         </table>
@@ -301,7 +307,7 @@
 
     <div id="football-news" class="section" style="display: none;">
         <h2>Football News</h2>
-        <img class="football-news-image" src="data:image/jpeg;base64,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
+        <img class="football-news-image" src="your-image-url.jpg" alt="Football News Image">
         <h3>Champions League Showdown: Arsenal Hosts Real Madrid</h3>
         <p>Tonight, Tuesday, April 8, 2025, the iconic Emirates Stadium in London will be the stage for a titanic clash in the UEFA Champions League as Premier League giants Arsenal welcome the undisputed kings of European football, Real Madrid. This high-stakes quarter-final (or potentially semi-final, depending on the bracket progression) promises a compelling encounter, pitting the dynamic and evolving Arsenal squad against the seasoned experience and relentless winning mentality of Los Blancos.</p>
         <h3>Arsenal's Journey and Expectations</h3>
